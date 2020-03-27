@@ -1,0 +1,39 @@
+#bodypge1{
+    background-image:url("screenvisual.png");
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    margin:0;   
+}
+
+
+#hdrpage1{
+    background-color:;
+    border: solid 1px rgb(68, 60, 45);
+    height: 65px; 
+}
+
+
+nav{
+    margin-top: -10px;
+    text-decoration: none;
+}
+
+
+ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+li a{
+    text-shadow: 5px -1px 1px white;
+    font-size: 35px;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+
