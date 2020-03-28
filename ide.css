@@ -1,18 +1,16 @@
-#bodypge1{
-    background-image:url("screenvisual.png");
-    display: flex;
-    flex-direction: column;
-    background-attachment: fixed;
+body{
+    background-image:url("fondaccueil.jpg");
+    background-size: 100% 100%;
     margin:0;   
 }
 
 
-#hdrpage1{
-    background-color:;
-    border: solid 1px rgb(68, 60, 45);
-    height: 65px; 
+header{
+    box-shadow: 0px 1px 20px rgb(94, 27, 121);
+    border: solid 1px rgb(105, 102, 97);
+    height: 65px;
+    margin: 0; 
 }
-
 
 nav{
     margin-top: -10px;
@@ -25,15 +23,57 @@ ul{
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 
 li a{
-    text-shadow: 5px -1px 1px white;
+    text-shadow: 2px 2px 1px white;
     font-size: 35px;
-    font-family: cursive;
+    font-family: monospace;
     text-decoration: none;
+    color: darkslategrey;
 }
 
 
+#texte{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 7%;
+    font-family: monospace;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+#images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.img{
+    width: 13%;
+    margin: 1%;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0px -1px 20px rgb(94, 27, 121);
+    border: solid 1px rgb(105, 102, 97);
+    height: 65px;
+    margin: 0;
+    margin-top: 212px;
+}
+
+
+#imgfoot{
+    margin-top: 15px;
+    width: 128px;
+    height: 37px;
+}
