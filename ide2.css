@@ -49,6 +49,8 @@ a.nounderline:link{
     text-shadow: 3px -3px 1px blue;
 }
 
+
+
 #droite{
     display: flex;
     flex-direction: row;
@@ -58,8 +60,9 @@ a.nounderline:link{
     flex-direction: row;
     color: White;
     margin-left: -28%;  
-
 }
+
+
 
 #cahier{
     margin-top: 13%;
@@ -83,13 +86,11 @@ a.nounderline:link{
 
 
 
-
 .arts{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-
 
 
 
